@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mensagem do dia</title>
+        <link rel="stylesheet" href="messageHoroscope.css">
+    </head>
+    <body>
+        <!--Header responsável por guardar o cabeçalho dessa página, com o nome do site "MensagensZodiacais"
+        e um botão que quando precionado direciona para a página index.html-->
+        <header>
+            <h1>MensagensZodiacais</h1>
+            <button id="return">VOLTAR</button>
+        </header>
+        
+        <!--Div que contém o nome do usuário, o signo dele, sua mensagem do dia para seu avatar
+        e um avatar com características escolhidas pelo mesmo.-->
+        <div id="resp" style="display: none">
+            <img id="avatar" src="">
+            <h2 id="nameUser"></h2>
+            <h2 id="signn"></h2>
+            <p id="text"></p>
+        </div>
+        
+        <!--Arquivos .js que serão utilizados no html-->
+        <script src="HoroscopeAPIRequest.js"></script>
+        <script src="json_style_avatar.js"></script>
+        <script src="avatar.js"></script>
+        <script src="initial.js"></script>
+        <script src="messageHoroscope.js"></script>
+    </body>
+</html>

@@ -1,0 +1,143 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+}
+
+body{
+    background-color:rgb(255, 255, 250);
+}
+
+header{
+    background-color:	#8B008B;
+    width: 100%;
+}
+
+h1{
+    color:white;
+}
+
+img{
+    display: flex;
+    align-items: center;
+    margin:0 auto 0 auto;
+}
+
+h2{
+    text-align: center;
+    color:darkorange;
+    margin-top: 10px;
+}
+
+#nameUser{
+    color:rgb(255, 77, 0);
+}
+
+p{
+    text-align: justify;
+    margin: 20px 80px 30px 80px;
+}
+
+#return{
+    padding: 8px 20px;
+    color: white;
+    border: 1px solid darkorange;
+    border-radius: 5%;
+    background-color: darkorange;
+    margin-right: 30px;
+}
+
+/*Versão para monitores*/
+@media screen and (min-width: 1977px){
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 90px;
+    }
+
+    h1{
+        padding: 5px 0 0 15px;
+        font-size: 40px;
+    }
+
+    #return{
+        padding: 10px 40px;
+        font-size: 20px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    p{
+        font-size: 20px;
+        margin: 20px 100px 30px 100px;
+    }
+}
+
+/*Versão para notebook*/
+@media screen and (min-width: 1025px) and (max-width: 1976px) {
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 70px;
+    }
+
+    h1{
+        padding: 2px 0 0 15px;
+    }
+
+    h2{
+        font-size:40px;
+    }   
+}
+
+/*Versão para tablet*/
+@media screen and (min-width: 601px) and (max-width: 1024px){
+    header{
+        display: flex;
+        justify-content: space-between;
+        height: 70px;
+    }
+
+    h1{
+        padding: 15px 0 0 15px;
+    }
+
+    h2{
+        font-size:30px;
+    }
+
+    #return{
+        display: flex;
+        margin-top: 18px;
+        margin-bottom: 18px;
+    }
+
+}
+
+/*Versão para smartphone*/
+@media screen and (min-width: 300px) and (max-width: 600px){
+    header{
+        display: block;
+        height: 100px;
+    }
+
+    h1{
+        text-align: center;
+        font-size: 22px;
+        padding: 20px 0 0 15px;
+    }
+
+    #return{
+        margin: 10px auto 10px auto;
+        display: flex;
+    }
+
+    p{
+        text-align: justify;
+        margin: 20px 40px 30px 40px;
+    }
+}

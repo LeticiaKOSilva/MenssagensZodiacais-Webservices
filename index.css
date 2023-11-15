@@ -1,0 +1,209 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+}
+
+body{
+    background-color:rgb(255, 255, 250);
+}
+
+header{
+    background-color:	#8B008B;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+h1{
+    color:white;
+}
+
+#dados{
+    border: 3px solid darkorange;
+    border-radius: 2%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h2{
+    color:darkorange;
+    margin: 15px 0 5px 0;
+    text-align: center;
+}
+
+p{
+    display: block;
+    margin: 10px 0 0 30px;
+}
+
+#button{
+    padding: 8px 20px;
+    color: white;
+    border: 1px solid darkorange;
+    border-radius: 5%;
+    background-color: darkorange;
+    display: flex;
+    margin: 20px auto 5px auto;
+}
+
+footer{
+    background-color:	#8B008B;
+    width: 100%;
+    position: fixed;
+    height: 70px;
+    bottom: 0;
+}
+
+footer b{
+    color:white;
+    display: block;
+    text-align:center;
+}
+
+/*Versão para monitores*/
+@media screen and (min-width: 1977px){
+    header{
+        height: 80px;
+    }
+
+    h1{
+        padding: 18px 0 0 20px;
+    }
+
+    #dados{
+        width:800px;
+        height: 600px;
+    }
+
+    h2{
+        font-size: 40px;
+        margin-top: 25px;
+    }
+
+    p b{
+        font-size: 30px;
+    }
+
+    select {
+        width: 250px;
+    }
+
+    #button{
+        padding: 15px 40px;
+        font-size: 20px;
+    }
+
+    footer{
+        height: 80px;
+    }
+
+    footer b{
+        margin-top:22px;
+    }
+}
+
+/*Versão para notebook*/
+@media screen and (min-width: 1025px) and (max-width: 1976px) {
+
+    header{
+        height: 70px;
+    }
+
+    h1{
+        padding: 15px 0 0 12px;
+    }
+
+    #dados{
+        width:600px;
+        height: 390px;
+    }
+
+    footer{
+        height: 70px;
+    }
+
+    footer b{
+        margin-top:15px;
+    }
+}
+
+/*Versão para tablet*/
+@media screen and (min-width: 601px) and (max-width: 1024px){
+    header{
+        height: 60px;
+    }
+
+    h1{
+        text-align: center;
+        font-size: 30px;
+        padding: 12px 0 0 10px;
+    }
+
+    #dados{
+        width:500px;
+        height: 380px;
+    }
+
+    footer{
+        height: 60px;
+    }
+
+    footer b{
+        margin-top:12px;
+    }
+
+}
+
+/*Versão para smartphone*/
+@media screen and (min-width: 300px) and (max-width: 600px){
+    header{
+        height: 70px;
+        display: block;
+    }
+
+    h1{
+        padding-top: 20px;
+        font-size: 25px;
+        display: block;
+        text-align: center;
+    }
+
+    #dados{
+        width: 100%;
+        border: none;
+        top: 38%;
+        left: 45%;
+    }
+
+    h2{
+        margin: 30px 0 10px 30px;
+        margin-bottom: 10px;
+        text-align: center;
+        display: block;
+        font-size: 30px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #ababab;
+    }
+
+    p{
+        display: block;
+        margin: 20px 0 0 40px;
+        font-size: 15px;
+    }
+
+    #button{
+        padding: 10px 40px;
+        font-size: 20px;
+    }
+
+    footer{
+        height: 70px;
+    }
+
+    footer b{
+        font-size: 15px;
+        margin-top:12px;
+    }
+}

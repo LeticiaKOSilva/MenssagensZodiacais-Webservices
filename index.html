@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mensagens Zodiacas</title>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.1/dist/css/select2.min.css" rel="stylesheet" />
+        <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.1/dist/js/select2.min.js"></script>
+        
+    </head>
+    <body>
+        <!--Header é o cabeçalho da página que possuí somente o nome do site "MensagensZodiacais"-->
+        <header>
+            <h1>Mensagens Zodiacais</h1>
+        </header>
+
+            <!-- A div de id = "dados" possuí o corpo de iteração do usuário, onde o mesmo 
+            fornecerá seu nome, signo para visualizar a sua mensagem do dia e características 
+            para se montar o seu avatar com o auxilio de APIS-->
+            <div id="dados">
+                    <h2>Informações pessoais</h2>
+                    <p>
+                        <b>Nome: </b>
+                        <input type="text" id="name"/>
+                    </p>
+
+                    <p>
+                        <b id="textS">Signo: </b>
+                        <select id="sign">
+                            <option value="aquario" selected>Aquário: 21 de janeiro a 18 de fevereiro</option>
+                            <option value="peixes">Peixes: 19 de fevereiro a 20 de março</option>
+                            <option value="aries">Áries: 21 de março a 20 de abril;</option>
+                            <option value="touro">Touro: 21 de abril a 20 de maio</option>
+                            <option value="gemeos">Gêmeos: 21 de maio a 20 de junho</option>
+                            <option value="cancer">Câncer: 21 de junho a 22 de julho</option>
+                            <option value="leao">Leão: 23 de julho a 22 de agosto</option>
+                            <option value="virgem">Virgem: 23 de agosto a 22 de setembro</option>
+                            <option value="libra">Libra: 23 de setembro a 22 de outubro</option>
+                            <option value="escorpiao">Escorpião: 23 de outubro a 21 de novembro</option>
+                            <option value="sargitario">Sagitário: 22 de novembro a 21 de dezembro</option>
+                            <option value="capricornio">Capricórnio: 22 de dezembro a 20 de janeiro</option>
+                        </select>
+                    </p>
+
+                    <h2>Informações para o avatar</h2>
+
+                    <p>
+                        <b>Sexo: </b>
+                        <select id="sexo">
+                            <option value="masculino" selected>masculino</option>
+                            <option value="feminino">feminino</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <b>Tipo de cabelo: </b>
+                        <select id="tipoCabelo">
+                            <option value="longo liso" selected>longo liso</option>
+                            <option value="curto liso">curto liso</option>
+                            <option value="longo cacheado">longo cacheado</option>
+                            <option value="curto cacheado">curto cacheado</option>
+                            <option value="sem cabelo">sem cabelo</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <b>Cor do cabelo: </b>
+                        <select id="hairColor">
+                            <option value="preto" selected>preto</option>
+                            <option value="castanho medio">castanho medio</option>
+                            <option value="castanho claro">castanho claro</option>
+                            <option value="loiro escuro">loiro escuro</option>
+                            <option value="loiro claro">loiro claro</option>
+                            <option value="ruivo">ruivo</option>
+                            <option value="vermelho">vermelho</option>
+                            <option value="rosa">rosa</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <b>Cor: </b>
+                        <select id="color">
+                            <option value="branco" selected>branco</option>
+                            <option value="amarelo">amarelo</option>
+                            <option value="alaranjado">alaranjado</option>
+                            <option value="pardo">pardo</option>
+                            <option value="negro">negro</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <b>Tipo de roupa: </b>
+                        <select id="clothingType">
+                            <option value="blazer" selected>blazer</option>
+                            <option value="camisa">camisa</option>
+                            <option value="moletom">moletom</option>
+                            <option value="camiseta">camiseta</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <b>Cor da roupa: </b>
+                        <select id="clothingColor">
+                            <option value="preto" selected>preto</option>
+                            <option value="rosa">rosa</option>
+                            <option value="azul">azul</option>
+                            <option value="verde">verde</option>
+                            <option value="cinza">cinza</option>
+                            <option value="amarelo">amarelo</option>
+                            <option value="vermelho">vermelho</option>
+                            <option value="azul-claro">azul-claro</option>
+                            <option value="rosa-claro">rosa-claro</option>
+                        </select>
+                    </p>
+
+                    <button id="button">Gerar</button>
+            </div>
+            <!--
+                <div id="resp" style="display: none">
+                    <h2 id="nameUser"></h2>
+                    <h2 id="signn"></h2>
+                    <p id="text"></p>
+                    <button id="return">Voltar</button>
+                </div>
+            -->
+        
+        <!--Footer é o rodapé da página que está fornecendo o e-mail da criadora do site e 
+        o ano em que o site foi criado-->
+        <footer>
+            <b>contato: lkarendeoliveirasilva@gmail.com 
+            <br>Site desenvolvido em 2023</b>
+        </footer>
+        
+        <!--Arquivos .js que serão utilizados no html-->
+        <script src="HoroscopeAPIRequest.js"></script>
+        <script src="json_style_avatar.js"></script>
+        <script src="avatar.js"></script>
+        <script src="initial.js"></script>
+        <script src="messageHoroscope.js"></script>
+    </body>
+</html>
