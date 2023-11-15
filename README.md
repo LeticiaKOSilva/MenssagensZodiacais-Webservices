@@ -9,6 +9,11 @@
 ## Instruções para utilização
 <p>Pra utiliza-ló é muito fácil, basta você seguir os passos igual ao vídeo trocando as informações colocas de exemplos pelas suas opções. :grinning:</p>
 
+Agora é só clicar no link e pesquisar sua mensagem do dia : 
+[MensagensZodiacais](https://leticiakosilva.github.io/MenssagensZodiacais-Webservices/)
+
+
+
 ## Um pouco sobre o desenvolvimento do site
 
 <p>Esse site foi desenvolvido após uma proposta de trabalho prático onde seria necessário consuumir 2 ou mais APIS criando uma ligação entre elas.</p>
