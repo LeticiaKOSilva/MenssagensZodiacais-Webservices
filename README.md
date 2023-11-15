@@ -39,8 +39,15 @@
 | | avatar.js | Arquivo que faz uma requisição a API <b>dicebear</b> passando as características escolhidas pelo usuário e as características padrões escolhidas pelo criador e cria um avatar no formato de imagem | |
 | | messageHoroscope.js | Arquivo que realiza validações da página messageHoroscope.html, recupera os dados passados pelo arquivo initial.js e coloca eles nas tags correspondentes da página messageHoroscope.html | |
 
-## Imagem do site index.html
+## Imagem dos 2 sites
+<p><b>OBS:</b> As imagens fornecidas abaixo estão na versão para notebooks e monitores menores, se você estiver em outros dispositivos (smartphone, tablet ou monitores grandes) encontra algumas diferenças no layout.</p>
 
-## Imagem do site messageHoscope.html
+### -> Imagem do site index.html
+
+<img src="https://github.com/LeticiaKOSilva/MensagensZodiacais-Webservices/blob/main/Imagens_Site/imagem_index.png" width="950px">
+
+### -> Imagem do site messageHoscope.html
+
+<img src="https://github.com/LeticiaKOSilva/MensagensZodiacais-Webservices/blob/main/Imagens_Site/imagem_messageHoroscope.png" width="950px">
  
 
