@@ -1,5 +1,5 @@
 # MensagensZodiacais - Webservices
-### -> Trabalho individual onde se deve consumir e combinar os dados de duas ou mais APIs HTTP em um web app
+### Trabalho individual onde se deve consumir e combinar os dados de duas ou mais APIs HTTP em um web app
 
 ## Sobre o site
 <p><b>MensagensZodiacas</b> é um site onde você fornece seu nome, escolhe o seu signo e fornece características específicas para montar um avata.</p>
@@ -29,4 +29,18 @@
 
 | | NOME DO ARQUIVO | DESCRIÇÃO GERAL DE SUA FUNCIONALIDADE | |
 | --- | --- | --- | --- |
+| | index.html | Site inicial que é usado para o usuário fornecer os dados necessários (nome, signo, características de seu avatar) | |
+| | messageHoroscope.html | Site que tem por função printar o resultado do processamento dos dados junto as APIS. Ela que vai printar o nome do usuário, seu signo, a mensagem do dia para o seu signo e seu avatar | |
+| | index.css | Arquivo resposnável por criar o estilo da página index.html e gerenciar sua responsividade | |
+| | messageHoroscope.css | Arquivo resposnável por criar o estilo da página messageHoroscope.html e gerenciar sua responsividade
+| | initial.js | Realiza validações para a página index.html, recupera e processa os dados, chamando os métodos que chamam as APIS e manda o resultado (mensagem do dia do signo em português, avatar no formato de imagem, nome do usuário e seu signo) e nos direciona para a página messageHorroscope.html | |
+| | HoroscopeAPIRequest.js | Arquivo que faz uma requisição a  API <b>astroo-API</b>, recupera seu json, procura a mensagem correspondente ao signo e com a ajuda da API <b>cloud translation API</b> traduz a mensagem do idioma Francês para o Português do Brasil | |
+| | json_style_avatar.js | Arquivo com um json feito para representar as características disponíveis para os avatares, além de métodos para acessá-los de forma mais rápida | |
+| | avatar.js | Arquivo que faz uma requisição a API <b>dicebear</b> passando as características escolhidas pelo usuário e as características padrões escolhidas pelo criador e cria um avatar no formato de imagem | |
+| | messageHoroscope.js | Arquivo que realiza validações da página messageHoroscope.html, recupera os dados passados pelo arquivo initial.js e coloca eles nas tags correspondentes da página messageHoroscope.html | |
+
+## Imagem do site index.html
+
+## Imagem do site messageHoscope.html
+ 
 
