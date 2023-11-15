@@ -12,10 +12,21 @@
 ## Um pouco sobre o desenvolvimento do site
 
 <p>Esse site foi desenvolvido após uma proposta de trabalho prático onde seria necessário consuumir 2 ou mais APIS criando uma ligação entre elas.</p>
+<p>O site também deveria ser responsivo</p>
+
 <p>Com isso escolhi 3 APIS para fazer o meu site, sendo elas:</p>
 
-| | NOME | LINK DOCUMENTAÇÃO | |
+| | NOME | LINK DOCUMENTAÇÃO | USABILIDADE | |
+| --- | --- | --- | --- | --- |
+| | Astroo-API | [Link API](https://kayoo123.github.io/astroo-api/hebdomadaire.json) | Utilizar a mensagem do dia retornada no json da API | |
+| | Cloud Translation API | [Link da documentação API](https://cloud.google.com/translate/docs/reference/rest) | Trazuzir a mensagem retornada da Astroo-API para o idioma português do Brasil | |
+| | Dicebear | [Link da documentação da API](https://www.dicebear.com/styles/avataaars) | Criação do avatar com as características escolhidas pelo usuário | |
+
+<p> Com isso foram criados 9 arquivos, para manipular e combinar essas APIS entre si. Logo na tabela abaixo está o nome dos arquivos e o que eles fazem no geral.
+<br><br>
+<b>OBS: Caso queira saber mais sobre um código basta clicar no arquivo correspondente, presente neste repositório do gtihub :+1:</b>
+</p>
+
+| | NOME DO ARQUIVO | DESCRIÇÃO GERAL DE SUA FUNCIONALIDADE | |
 | --- | --- | --- | --- |
-| | Cloud Translation API | [Link da documentação API](https://cloud.google.com/translate/docs/reference/rest) | |
-| | Astroo-API | [Link API](https://kayoo123.github.io/astroo-api/hebdomadaire.json) | |
-| | Dicebear | [Link da documentação da API](https://www.dicebear.com/styles/avataaars) | |
+
