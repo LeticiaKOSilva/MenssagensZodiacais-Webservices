@@ -1,0 +1,263 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+}
+
+body{
+    background-color:rgb(255, 255, 250);
+}
+
+header{
+    background-color:	#8B008B;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    color:white;
+}
+
+h2{
+    text-align: center;
+    color:darkorange;
+    margin-top: 10px;
+}
+
+#informacoes{
+    margin-bottom: 10px;
+}
+
+#title{
+    color:rgb(255, 106, 0);
+}
+
+p{
+    display: block;
+}
+
+#return{
+    color: white;
+    border: 1px solid darkorange;
+    border-radius: 2%;
+    background-color: darkorange;
+    margin-right: 30px;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto 20px auto;
+  }
+  
+  /* Estilizando o cabeçalho */
+th{
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+  
+  /* Estilizando as células de dados */
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+  
+  /* Alterando a cor do fundo de cada linha de forma alternada */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+  
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto 0 auto;
+}
+
+/*Versão para monitores*/
+@media screen and (min-width: 1977px){
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 90px;
+    }
+
+    h1{
+        padding: 5px 0 0 15px;
+        font-size: 40px;
+    }
+
+    #return{
+        padding: 10px 40px;
+        font-size: 20px;
+    }
+
+    h2{
+        font-size: 35px;
+    }
+
+    #title{
+        font-size: 40px;
+        margin-top:20px;
+        margin-bottom: 10px;
+    }
+
+    p{
+        font-size: 22px;
+        margin: 20px 100px 30px 100px;
+    }
+
+    #mensagens{
+        font-size: 25px;
+    }
+
+    video{
+        width: 1000px;
+        height: 500px;
+    }
+  
+}
+
+/*Versão para notebook*/
+@media screen and (min-width: 1024px) and (max-width: 1976px) {
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 70px;
+    }
+
+    #return{
+        padding: 8px 20px;
+    }
+
+    h1{
+        padding: 5px 0 0 15px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    #title{
+        font-size: 35px;
+        margin-top:15px;
+    }
+
+    p{
+        margin: 20px 60px 30px 60px;
+    }
+
+    #mensagens{
+        font-size: 20px;
+    }
+
+    video{
+        width: 700px;
+        height: 400px;
+    }
+}
+
+/*Versão para tablet*/
+@media screen and (min-width: 601px) and (max-width: 1023px){
+    header{
+        display: flex;
+        justify-content: space-between;
+        height: 70px;
+    }
+
+    h1{
+        font-size: 25px;
+        padding: 20px 0 0 15px;
+    }
+
+    #return{
+        display: flex;
+        margin-top: 18px;
+        margin-bottom: 18px;
+        padding: 8px 20px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    #title{
+        font-size: 35px;
+        margin-top:15px;
+    }
+
+    p{
+        margin: 20px 100px 30px 60px;
+    }
+
+    #mensagens{
+        font-size: 20px;
+    }
+
+    video{
+        width: 400px;
+        height: 300px;
+    }
+}
+
+/*Versão para smartphone*/
+@media screen and (min-width: 300px) and (max-width: 600px){
+    header{
+        display: block;
+        height: 100px;
+    }
+
+    h1{
+        text-align: center;
+        font-size: 22px;
+        padding: 20px 0 0 15px;
+    }
+
+    #return{
+        padding: 8px 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 10px 20% 10px 20%;
+    }
+
+    video{
+        width: 290px;
+        height: 150px;
+    }
+
+    #title{
+        display: block;
+        font-size: 30px; 
+    }
+
+    h2{
+        margin: 30px 0 10px 30px;
+        margin-bottom: 10px;
+        text-align: center;
+        display: block;
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+
+    p{
+        display: block;
+        margin: 10px 30px 20px 40px;
+        font-size: 15px;
+    }
+}

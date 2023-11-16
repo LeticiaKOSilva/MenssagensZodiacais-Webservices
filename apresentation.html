@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Site de apresentação</title>
+        <link rel="stylesheet" href="apresentation.css">
+    </head>
+    
+    <body>
+        <header>
+            <h1>MensagensZodiacais</h1>
+            <a href = "index.html" id="return">Site principal</a>
+        </header>
+
+        <div id = "informacoes">
+            <h2 id="title"> Apresentação do site Mensagens Zodiacais</h2>
+            
+            <h2>Informações sobre o site</h2>
+            
+            <p>MensagensZodiacas é um site interativo que conta com a ajuda de 3 APIS. Nele você fornece seu nome, escolhe o seu signo e fornece características específicas para montar um avatar.
+                <br>
+                   Foi desenvolvido com intuito acadêmico depois de uma proposta de trabalho prático da matéria de webservices, que tinha como idéia consumir e combinar os dados de duas ou mais APIs HTTP em um web app.
+            </p>
+
+            <p>As APIS utilizadas no site foram:</p>
+
+            <table>
+                <tr>
+                    <th>Nome</th>
+                    <th>Link</th>
+                    <th>Usabilidade</th>
+                </tr>
+
+                <tr> 
+                    <td>Astroo-API</td>
+                    <td><a href="https://kayoo123.github.io/astroo-api/hebdomadaire.json"> astroo-api</a></td>
+                    <td>Utilizar a mensagem do dia retornada no json da API</td>
+                </tr>
+
+                <tr>
+                    <td>Cloud Translation API</td>
+                    <td><a href="https://cloud.google.com/translate/docs/reference/rest">cloud translation api</a></td>
+                    <td>Trazuzir a mensagem retornada da Astroo-API para o idioma português do Brasil</td>
+                </tr>
+
+                <tr>
+                    <td>Dicebear</td>
+                    <td><a href="https://www.dicebear.com/styles/avataaars">dicebear</a></td>
+                    <td>Criação do avatar com as características escolhidas pelo usuário</td>
+                </tr>
+            </table>
+
+            <p>Além do uso das 3 APIS foram desenvolvidos 11 para fazerem a estilização das páginas, marcação, requisições das apis e validações dos sites.
+               <br> Logo abaixo está uma tabela com os nomes dos arquivos e a função que cada um desempenhou.
+            </p>
+            
+            <table>
+                <tr>
+                    <th>Nome do Arquivo</th>
+                    <th>Descrição geral de sua funcionalidade</th>
+                </tr>
+
+                <tr>
+                    <td>index.html</td>
+                    <td>Site inicial que é usado para o usuário fornecer os dados necessários (nome, signo, características de seu avatar)</td>
+                </tr>
+
+                <tr>
+                    <td>messageHoroscope.html</td>
+                    <td>Site que tem por função printar o resultado do processamento dos dados junto as APIS. Ela que vai printar o nome do usuário, seu signo, a mensagem do dia para o seu signo e seu avatar</td>
+                </tr>
+
+                <tr>
+                    <td>apresentation.html</td>
+                    <td>Site usado para apresentar e mostrar a utilização do MensagensZodiacais</td>
+                </tr>
+
+                <tr>
+                    <td>index.css</td>
+                    <td>Arquivo resposnável por criar o estilo da página index.html e gerenciar sua responsividade</td>
+                </tr>
+
+                <tr>
+                    <td>messageHoroscope.css</td>
+                    <td>Arquivo resposnável por criar o estilo da página messageHoroscope.html e gerenciar sua responsividade</td>
+                </tr>
+
+                <tr>
+                    <td>apresentation.css</td>
+                    <td>Arquivo resposnável por criar o estilo da página apresentation.html e gerenciar sua responsividade</td>
+                </tr>
+
+                <tr>
+                    <td>initial.js</td>
+                    <td> Realiza validações para a página index.html, recupera e processa os dados, chamando os métodos que chamam as APIS e manda o resultado (mensagem do dia do signo em português, avatar no formato de imagem, nome do usuário e seu signo) e nos direciona para a página messageHorroscope.html</td>
+                </tr>
+
+                <tr>
+                    <td>HoroscopeAPIRequest.js</td>
+                    <td> Arquivo que faz uma requisição a  API <b>astroo-API</b>, recupera seu json, procura a mensagem correspondente ao signo e com a ajuda da API <b>cloud translation API</b> traduz a mensagem do idioma Francês para o Português do Brasil </td>
+                </tr>
+
+                <tr>
+                    <td>json_style_avatar.js</td>
+                    <td>Arquivo com um json feito para representar as características disponíveis para os avatares, além de métodos para acessá-los de forma mais rápida</td>
+                </tr>
+
+                <tr>
+                    <td>avatar.js</td>
+                    <td>Arquivo que faz uma requisição a API <b>dicebear</b> passando as características escolhidas pelo usuário e as características padrões escolhidas pelo criador e cria um avatar no formato de imagem</td>
+                </tr>
+
+                <tr>
+                    <td> messageHoroscope.js</td>
+                    <td>Arquivo que realiza validações da página messageHoroscope.html, recupera os dados passados pelo arquivo initial.js e coloca eles nas tags correspondentes da página messageHoroscope.html</td>
+                </tr>
+            </table>
+
+            <p><b>OBS</b>Caso queira saber mais sobre um código é só acessar o link a seguir: <a href="https://github.com/LeticiaKOSilva/MenssagensZodiacais-Webservices">Repositório no Github com todo o projeto</a></p>
+
+            <h2>Instruções de utilização</h2>
+            
+            <p>Para utilizar o site é muito fácil, basta você seguir os passos igual ao vídeo trocando as informações colocas de exemplos pelas suas informações.</p>
+            <video controls>
+                <source src="video/site-messagensZodiacais.mp4" type="video/mp4">
+            </video>
+            <br>
+            <p>Viu como é fácil? <br> <b>Agora é só clicar no link a seguir para acessar o site:</b> <a href="index.html" id="mensagens">MensagensZodiacais</a>
+            </p>
+            <br>
+        </div>
+
+    </body>
+</html>
