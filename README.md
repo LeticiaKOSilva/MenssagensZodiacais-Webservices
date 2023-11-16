@@ -13,7 +13,7 @@
 https://github.com/LeticiaKOSilva/MenssagensZodiacais-Webservices/assets/129966396/e6d8739c-b4aa-4511-ac16-47e647045b93
 
 Agora é só clicar no link e pesquisar sua mensagem do dia :slightly_smiling_face:: 
-[MensagensZodiacais](https://leticiakosilva.github.io/MenssagensZodiacais-Webservices/)
+[MensagensZodiacais]()
 
 
 
@@ -54,12 +54,14 @@ Agora é só clicar no link e pesquisar sua mensagem do dia :slightly_smiling_fa
 
 ### -> Imagem do site apresentation.html
 
+<img src="https://github.com/LeticiaKOSilva/MenssagensZodiacais-Webservices/blob/main/Imagens_Site/site_apresentacao.png" width="950px">
+
 ### -> Imagem do site index.html
 
-<img src="https://github.com/LeticiaKOSilva/MensagensZodiacais-Webservices/blob/main/Imagens_Site/imagem_index.png" width="950px">
+<img src="https://github.com/LeticiaKOSilva/MenssagensZodiacais-Webservices/blob/main/Imagens_Site/imagem_index.png" width="950px">
 
 ### -> Imagem do site messageHoscope.html
 
-<img src="https://github.com/LeticiaKOSilva/MensagensZodiacais-Webservices/blob/main/Imagens_Site/imagem_messageHoroscope.png" width="950px">
+<img src="https://github.com/LeticiaKOSilva/MenssagensZodiacais-Webservices/blob/main/Imagens_Site/imagem_messageHoroscope.png" width="950px">
  
 
