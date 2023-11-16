@@ -7,9 +7,12 @@
 <p>E ai bora vê como funciona? :sunglasses: </p> 
 
 ## Instruções para utilização
+
 <p>Pra utiliza-ló é muito fácil, basta você seguir os passos igual ao vídeo trocando as informações colocas de exemplos pelas suas opções. :grinning:</p>
 
-Agora é só clicar no link e pesquisar sua mensagem do dia : 
+https://github.com/LeticiaKOSilva/MenssagensZodiacais-Webservices/assets/129966396/e6d8739c-b4aa-4511-ac16-47e647045b93
+
+Agora é só clicar no link e pesquisar sua mensagem do dia :slightly_smiling_face:: 
 [MensagensZodiacais](https://leticiakosilva.github.io/MenssagensZodiacais-Webservices/)
 
 
