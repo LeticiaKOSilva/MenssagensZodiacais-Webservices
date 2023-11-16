@@ -171,10 +171,10 @@ footer b{
     }
 
     #dados{
-        width: 100%;
         border: none;
-        top: 38%;
-        left: 45%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
     h2{
