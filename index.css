@@ -158,6 +158,7 @@ footer b{
 
 /*Versão para smartphone*/
 @media screen and (min-width: 300px) and (max-width: 600px){
+
     header{
         height: 70px;
         display: block;
@@ -171,6 +172,8 @@ footer b{
     }
 
     #dados{
+        overflow: scroll; 
+        height: 400px; /* ou a altura desejada */
         border: none;
         top: 50%;
         left: 45%;
